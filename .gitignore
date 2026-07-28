@@ -1,0 +1,20 @@
+﻿# --- Generated data (recreated automatically when you run the pipeline) ---
+dashboard_scoreboard/
+woo_orders_landing/
+poller_state.json
+
+# --- Credentials (never commit these) ---
+.env
+
+# --- Scratch / exploration files, not part of the final pipeline ---
+test_spark.ipynb
+sample.txt
+Spark setup notes · TXT
+live_scoreboard_writer.ipynb
+
+# --- OS / editor clutter ---
+desktop.ini
+.vscode/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
