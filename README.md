@@ -6,7 +6,7 @@ Built as a portfolio project combining data engineering (streaming ingestion, sc
 
 ## What it looks like
 
-*(Add a screenshot or short screen-recording of the dashboard here.)*
+![Dashboard screenshot](screenshots/dashboard.png)
 
 ## Architecture
 
@@ -105,3 +105,4 @@ A few choices worth explaining, since they weren't the only options:
 - Persist the landing zone and scoreboard to Delta Lake instead of plain JSON, for time-travel and ACID guarantees.
 - Add a forecasting or customer segmentation model (RFM + clustering) on top of the order history.
 - Containerize the full pipeline with Docker Compose, including a scripted (WP-CLI) WooCommerce setup, for one-command reproducibility.
+
